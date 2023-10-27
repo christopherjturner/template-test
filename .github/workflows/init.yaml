@@ -1,4 +1,8 @@
 name: Template
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   write_to_repo:
