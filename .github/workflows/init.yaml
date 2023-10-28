@@ -14,6 +14,7 @@ on:
 jobs:
   write_to_repo:
     runs-on: ubuntu-latest
+    if: github.run_number == 11
 
     steps:
       - uses: actions/checkout@v4
